@@ -1,0 +1,9 @@
+import random
+
+number = random.randint(1, 10)
+guess = int(input("1 నుండి 10 మధ్య ఒక సంఖ్యను ఊహించండి: "))
+
+if guess == number:
+    print("అభినందనలు! నువ్వు సరిగ్గా ఊహించావు!")
+else:
+    print(f"అయ్యో! సరైన సంఖ్య: {number}")
